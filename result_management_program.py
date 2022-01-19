@@ -6,6 +6,7 @@ import sqlite3 as db
 #root frame
 root = Tk()
 
+
 root.geometry("600x400")
 root.title("STUDENT MANAGEMENT PROGRAM")
 root.geometry("1200x800+0+0")
@@ -21,6 +22,7 @@ con.commit()
 top_title=Label(root, text="STUDENT MANAGEMENT PROGRAM",bd=10,relief=GROOVE, font=("times new roman", 40 , "bold"),bg="#4DB6AC",fg="#F57F17")
 
 top_title.pack(side=TOP ,fill=X)
+
 
 
 
